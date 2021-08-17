@@ -47,11 +47,11 @@ app.post("/",function(req,res)
   var json_data = JSON.stringify(data);
 
 
-const url = "https://us2.api.mailchimp.com/3.0/lists/0004c1be1e";
-const options = {
-  method : "POST",
-  auth : process.env.API_KEY
-};
+// const url = "https://us2.api.mailchimp.com/3.0/lists/0004c1be1e";
+// const options = {
+//   method : "POST",
+//   auth : process.env.API_KEY
+// };
 
   const request = https.request(url,options,function(response)
 {
